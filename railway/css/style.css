@@ -96,7 +96,7 @@ body {
 
 .button:hover,
 .button2:hover{
-    background-image: url('/image/button.png');
+    background-image: url('../image/button.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -145,7 +145,7 @@ body {
 /*   中國頂級利車 img 1  */
 .bg-2{
     background-repeat: no-repeat;
-    background-size: 100vw 55vh;
+    background-size: 100vw 65vh;
     background-position: bottom;
 }
 
@@ -424,7 +424,7 @@ display: none !important;
 
 .bg3-3,
 .bg2-7 {
-    background-image: url('/image/bg-3-1.jpg');
+    background-image: url('../image/bg-3-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -434,11 +434,11 @@ display: none !important;
     overflow: hidden;
 }
 .bg3-3 {
-    background-image: url('/image/bg-3-1.jpg');
+    background-image: url('../image/bg-3-1.jpg');
 }
 
 .bg2-7 {
-    background-image: url('/image/bg-7.jpg');
+    background-image: url('../image/bg-7.jpg');
 }
 
 .dream {
@@ -1008,10 +1008,10 @@ display: none !important;
 }
 
 .referral-bg{
-  background-image: url('/image/bg-4.jpg');  
+  background-image: url('../image/bg-4.jpg');  
 }
 .referra2-bg{
-    background-image: url('/image/bg-8.jpg');  
+    background-image: url('../image/bg-8.jpg');  
 }
 
 .referral .vh{
@@ -1141,10 +1141,10 @@ display: none !important;
 
 
     .referral-bg{
-        background-image: url('/image/bg-4-2.jpg');  
+        background-image: url('../image/bg-4-2.jpg');  
     }
     .referra2-bg{
-        background-image: url('/image/bg-8-2.jpg');  
+        background-image: url('../image/bg-8-2.jpg');  
     }
 
     .title_t a >.subtitle{
@@ -1881,7 +1881,7 @@ select {
 
 /*  top  */
 #movetop {
-    background-image: url('/image/TOP.png');
+    background-image: url('../image/TOP.png');
     background-size: cover;
     background-position: center;
 	position: fixed;
