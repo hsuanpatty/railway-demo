@@ -1405,7 +1405,7 @@ display: none !important;
     display: flex;
     justify-content: space-around;
     z-index: 2;
-    top: 31%;
+    top: 27%;
     left: 17%;
     transform: translate(-50%, -50%);
   }
