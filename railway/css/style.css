@@ -1590,6 +1590,10 @@ select {
   }
 
   @media (max-width: 1899.98px) { 
+    .card-auto{
+        margin: auto;
+    }
+    
     .card-p {
         padding-top: 0;
 
