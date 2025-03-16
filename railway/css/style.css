@@ -644,10 +644,6 @@ display: none !important;
     .dream .round {
         padding: 4px 14px 10px 0px;
     }
-    .bg3-3{
-        background-size: cover;
-        border-radius: 50px;
-    }
 
     .line-w{
         height: 70px;
@@ -718,11 +714,6 @@ display: none !important;
     .active,
     .active-2{
         font:700 16px 微軟正黑體;
-    }
-
-    .bg3-3{
-        background-size: 100vw 170vh;
-        border-radius: 60px;
     }
 
     .container-fluiframe-px{
@@ -1522,7 +1513,7 @@ display: none !important;
     }
 
     .card-text{
-        height: 150px;
+        height: 190px;
     }
  }
 
