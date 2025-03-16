@@ -371,6 +371,10 @@ display: none !important;
         padding: 20px 15px;
         margin: 0 ;
     }
+    .box-brown,
+    .box-white{
+        padding: 15px 0 0 0;
+    }
 }
 
 
