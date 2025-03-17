@@ -1462,7 +1462,7 @@ display: none !important;
     display: flex;
     justify-content: space-around;
     z-index: 2;
-    top: 27%;
+    top: 31%;
     left: 17%;
     transform: translate(-50%, -50%);
   }
