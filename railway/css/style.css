@@ -4,14 +4,10 @@ html {
 }
 
 html, body {
-
     overflow-x: hidden;
-
-
 }
 
 body {
-
     width: 100%;
     margin: 0;
     padding: 0;
@@ -1298,6 +1294,14 @@ display: none !important;
     }
 }
 
+
+@media (max-width: 991.98px) { 
+    .bg-4 {
+        background-size: 100vw 70vh;
+    }
+}
+
+
 @media (max-width: 767.98px) { 
     .bg-4{
         background-size: cover;
@@ -1471,11 +1475,17 @@ display: none !important;
 
  @media (max-width: 767.98px) {
     .card-carousel .card-carousel__nav {
-        top: 18%;
+        top: 15%;
     }
 
     .card-text{
         height: 230px;
+    }
+ }
+
+ @media (max-width: 575.98px) {
+    .card-carousel .card-carousel__nav {
+        top: 18%;
     }
  }
 
@@ -1617,6 +1627,11 @@ select {
     }
   }
 
+    @media (max-width: 991.98px) { 
+ .bg-5 {
+    background-size: 100vw 90vh;
+    }
+  }
 
   @media (max-width: 767.98px) { 
     .car h4{
