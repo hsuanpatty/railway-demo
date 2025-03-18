@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -1309,9 +1310,8 @@ display: none !important;
 /*  中亞   */
 .bg-5{
     background-repeat: no-repeat;
-    background-size: 100vw 60vh;
-    background-position: top;
-    padding: 30px 0;
+    background-size: 100vw 65vh;
+    background-position: bottom;
 }
 
 .bg-6{
