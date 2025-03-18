@@ -102,8 +102,7 @@ body {
 }
 
 
-.button:hover,
-.button2:hover{
+.button:hover{
     color: #fff;
     background-image: url('../image/button.png');
     background-size: cover;
