@@ -86,12 +86,13 @@ body {
 }
 
 /*  1  */
+
 .button {
-    color: #ffffff;
+    color: #776048;
     font-size: 32px;
     font-weight: 600;
-    padding: 16px 0 0 0;
-    height: 76px;
+    padding: 16px;
+    height: 77px;
     text-align: center;
     background-image: none;
     -webkit-transition: all 0.3s;
@@ -100,13 +101,14 @@ body {
 }
 
 .button-border{
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
+    border-right: 1px solid #776048;
+    border-left: 1px solid #776048;
 }
 
 
 .button:hover,
 .button2:hover{
+    color: #fff;
     background-image: url('../image/button.png');
     background-size: cover;
     background-position: center;
@@ -175,7 +177,7 @@ body {
     position: absolute;
     top: 50%;
     left: 48%;
-    transform: translate(-50%, -21%);
+    transform: translate(-50%, -51%);
 }
 
 .myImg .slick-prev ,
@@ -185,12 +187,6 @@ display: none !important;
 
 .banner-bg{
     position: relative; 
-}
-
-.banner-bg .box-po{
-    position: absolute;
-    top: 67%;
-    transform: translate(0, -20%);
 }
 
 .box-brown, 
@@ -248,8 +244,9 @@ display: none !important;
 }
 
 .culture{
-    font: 600 16px 微軟正黑體;
-    color: #312e2d;
+    font: 500 16px 微軟正黑體;
+    color: #473d3b;
+    line-height: 30px;
     letter-spacing: 0.15rem;
     padding-left: 20px;
     margin-bottom: 0;
@@ -271,26 +268,19 @@ display: none !important;
 
 
 @media (max-width: 1399.98px) { 
-    .banner-bg .box-po {
-        top: 66%;
-    }
 
     .bg-2 {
         background-repeat: no-repeat;
         background-size: 100vw 80vh;
     }
 
-    .myImg .frame img{
-        left: 46%;
-        transform: translate(-50%, -52%);
+    #myImg {
+        margin-left: 1px;
     }
 
-    .banner-bg .box-po{
-        padding: 20px 0 0;
-        position: static;
-        top: 0;
-        transform: translate(-8%, 0);
-        margin: 0 20px;
+    .myImg .frame img{
+        left: 50%;
+        transform: translate(-50%, -52%);
     }
 }
 
@@ -307,19 +297,6 @@ display: none !important;
 
     #myImg {
         width: 100%;
-    }
-
-    .myImg .frame img{
-        left: 48%;
-        transform: translate(-50%, -52%);
-    }
-
-    .banner-bg .box-po{
-        padding: 20px 0 0;
-        position: static;
-        top: 0;
-        transform: translate(-8%, 0);
-        margin: 0 20px;
     }
 
     .box-brown, 
@@ -409,8 +386,8 @@ display: none !important;
 
     .box-py,
     .bg-py{
-        padding-top: 3rem !important;
-        padding-bottom: 9rem !important;
+        padding-top: 4rem !important;
+        padding-bottom: 5rem !important;
     }
 }
 @media (max-width: 991.98px) { 
@@ -497,24 +474,12 @@ display: none !important;
     color: #473d3b;
 }
 
-.button {
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 600;
-    padding: 16px;
-    height: 77px;
-    text-align: center;
-    background-image: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
 .active-1 p{
     display: block;
     font:700 17px 微軟正黑體;
     color: #473d3b;
     width: 300px;
+    margin-bottom: 0;
     background: url(../image/iocn-5.png) no-repeat  50%;
 }
 
@@ -562,7 +527,8 @@ display: none !important;
 }
 
 .line-w{
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -645,9 +611,6 @@ display: none !important;
         padding: 4px 14px 10px 0px;
     }
 
-    .line-w{
-        height: 70px;
-    }
  }
 
  @media (max-width: 991.98px) {
@@ -670,6 +633,8 @@ display: none !important;
     .dream .round {
         padding: 5px 14px 10px 0px;
     }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -688,11 +653,6 @@ display: none !important;
     .bg3-3,
     .bg2-7{
         border-radius: 40px;
-    }
-
-    .line-w{
-        width: 100%;
-        height: 30px;
     }
 
     .container-fluiframe-pl{
@@ -725,6 +685,10 @@ display: none !important;
         flex-wrap: nowrap;
         align-items: center;
         padding: 10px 0;
+    }
+
+    .line-w {
+        height: 30px;
     }
 
 }
@@ -943,7 +907,7 @@ display: none !important;
 
 @media (max-width: 991.98px) { 
     .scape img{
-        border-radius: 25px;
+        border-radius: 50px;
         width: 95%;
     }
     .scape{
@@ -1373,8 +1337,8 @@ display: none !important;
 
 .card-text{
     font: 500 16px 微軟正黑體;
-    text-align: center;
-    line-height: 25px;
+    text-align: left;
+    line-height: 30px;
     color: #312e2d;
     padding: 20px 0 5px;
     letter-spacing: 0.05rem;
@@ -1511,16 +1475,9 @@ display: none !important;
     }
 
     .card-text{
-        height: 190px;
+        height: 230px;
     }
  }
-
- @media (max-width: 575.98px) {
-    .card-carousel .card-carousel__nav {
-        top: 20%;
-    }
- }
-
 
 
 /*  data  */
