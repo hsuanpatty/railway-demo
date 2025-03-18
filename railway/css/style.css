@@ -1894,6 +1894,7 @@ select {
 /*  top  */
 #movetop {
     background-image: url('../image/TOP.png');
+    background-color: transparent;
     background-size: cover;
     background-position: center;
 	position: fixed;
