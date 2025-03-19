@@ -1621,7 +1621,7 @@ select {
     }
   }
 
-  @media (min-width: 1900px) {
+  @media (min-width: 1700px) {
 
     .tab-body{
         position: relative;
@@ -1634,7 +1634,7 @@ select {
     }    
   }
 
-  @media (max-width: 1899.98px) { 
+  @media (max-width: 1699.98px) { 
     .card-auto{
         margin: auto;
     }
