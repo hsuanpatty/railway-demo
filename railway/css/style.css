@@ -1628,11 +1628,25 @@ select {
     }
     .tab-body .tab-header {
         position: absolute;
-        top: 28%;
+        top: 30%;
         left: 50%;
         transform: translate(4%, -50%);
     }    
   }
+
+  @media (min-width: 2300px) {
+
+    .tab-body{
+        position: relative;
+    }
+    .tab-body .tab-header {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(4%, -50%);
+    }    
+  }
+
 
   @media (max-width: 1699.98px) { 
     .card-auto{
