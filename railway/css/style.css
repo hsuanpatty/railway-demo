@@ -554,7 +554,10 @@ display: none !important;
         left: 190px;
     }
 
-
+    .container-fluiframe-px{
+        padding: 0 100px;    
+    }
+    
     .dream ul {
         display: block;
     }
