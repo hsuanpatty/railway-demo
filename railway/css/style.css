@@ -1467,30 +1467,26 @@ display: none !important;
 
 @media (max-width: 1499.98px) { 
     .card-text{
-        height: 150px;
+        height: auto;
     }
  }
 
 @media (max-width: 991.98px) {
     .card-carousel .card-carousel__nav {
-        top: 13%;
+        top: 15%;
         left: 50%;
     }
  }
 
  @media (max-width: 767.98px) {
     .card-carousel .card-carousel__nav {
-        top: 15%;
+        top: 17%;
     }
  }
 
  @media (max-width: 575.98px) {
     .card-carousel .card-carousel__nav {
         top: 16.5%;
-    }
-
-    .card-text{
-        height: 230px;
     }
  }
 
