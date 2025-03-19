@@ -109,31 +109,55 @@ body {
     cursor: pointer;
 }
 
+
+@media (max-width: 1399.98px) { 
+    .button{
+        font-size: 28px;
+        height: 66px;
+    }
+    .button:hover {
+        height: 66px;
+    }
+}
+
 @media (max-width: 1024.98px) { 
     .button{
         font-size: 24px;
         width: 250px;
-        height: 47px;
+        height: 46px;
         padding: 5px 0 0;
         margin: auto;
+    }
+
+    .button:hover{
+        height: 46px;
     }
 }
 
 @media (max-width: 991.98px) { 
     .button,.button2{
-        font-size: 18px !important;
+        font-size: 18px ;
         width: 150px;
-        height: 40px !important;
-        padding: 8px 0 0 !important;
+        height: 40px ;
+        padding: 8px 0 0 ;
         width: 100%;
+    }
+
+    .button:hover{
+        height: 40px;
     }
 }
 
 @media (max-width: 575.98px) {
     .button,.button2{
-        font-size: 16px !important;
-        padding: 10px 0 0 !important;
-        width: 62%;
+        font-size: 16px ;
+        height: 43px ;
+        padding: 10px 0 0 ;
+        width: 66%;
+    }
+
+    .button:hover{
+        height: 43px;
     }
 
     .button-border{
