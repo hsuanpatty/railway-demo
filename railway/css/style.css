@@ -1486,6 +1486,12 @@ display: none !important;
 }
 
 
+@media (max-width: 1699.98px) { 
+    .card-carousel .card-carousel__nav {
+        top: 28%;
+    }
+}
+
 @media (max-width: 1599.98px) { 
     .card-carousel .card-carousel__nav {
         top: 26%;
